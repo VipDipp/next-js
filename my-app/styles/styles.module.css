@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*:root {
+    color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://g.foolcdn.com/editorial/images/673237/stock-chart-crash-correction-plunge-bounce-bear-market-bar-trend-invest-crypto-getty.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+
+.title {
+    margin-top: 5%;
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+.header_label, .text {
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.survey_form {
+    margin: 0 auto;
+    width: 65%;
+    background-color: rgba(48, 48, 48, 0.693);
+    border: 0.1rem solid;
+    border-radius: 1rem;
+    padding: 2.5rem 0.625rem;
+}
+
+.text_input {
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 1rem;
+    width: 99.5%;
+    height: 2.8rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input_radio,
+.input_checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.input_textarea {
+    min-height: 8rem;
+    width: 97.5%;
+    padding: 0.625rem;
+    resize: vertical;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/*label {
+    display: flex;
+    margin-bottom: 0.5rem;
+}*/
+
+.submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #37af65; 
+    color: inherit;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.submit:hover {
+    background-color: #5bd289;
+}
+
+.dropdown {
+    color: black;
+}
+
+.toSurvey {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 0.1rem solid green;
+    background-color: #37af65;
+    font-size: 1.5rem;
+    position: fixed;
+    color: white;
+}
+
+.cityFind {
+    text-align: center;
+    border-radius: 0.5rem;
+    height: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.cityFindButton {
+    text-align: center;
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+.weather {
+    position: fixed;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    display: flex;
+    flex-direction: column;
+}
