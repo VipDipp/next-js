@@ -1,5 +1,6 @@
 import { useUserContext } from './Context';
 import loginStyles from '../styles/loginStyles.module.css';
+import router from 'next/router';
 
 const LogOutButton = () => {
     const { loggedIn, setLoggedIn } = useUserContext();
@@ -12,12 +13,12 @@ const LogOutButton = () => {
                     localStorage.setItem("loggedIn", JSON.stringify(false));
                     localStorage.setItem("email", "{}");
                     localStorage.setItem("password", "{}");
-                    setLoggedIn(false);
+                    setLoggedIn(false)
+                    router.push("/login");
                 }
-                console.log(loggedIn)
             }}
         > 
-            Log out
+            Log out 
         </button>
     );
 };

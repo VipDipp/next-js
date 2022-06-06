@@ -13,7 +13,6 @@ const LoginPage:FC = () => {
             className={loginStyles.form}
             onSubmit={() => {
                 setLoggedIn(true);
-                console.log(loggedIn)
                 localStorage.setItem('loggedIn', JSON.stringify(true));
             }}
             > 

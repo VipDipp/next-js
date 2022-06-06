@@ -24,7 +24,7 @@ const defaultValue = [
     { value: 0, label: 'Choose your rate to our services'}
 ]
 
-const appRoutes = ['/ ', '/survey', '/login'];
+const appRoutes = ['/survey'];
 
 const api = "33bde26b41eeb4589d2c644f56d2968a";
 
