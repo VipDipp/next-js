@@ -41,13 +41,13 @@ const HomePage = () => {
                         <p>City not found!</p>
                 :
                 [
-                    <TextInput 
+                    <TextInput key={0}
                     type='text' 
                     placeholder='Write your city to check weather' 
                     classStyle={styles.cityFind} 
                     onChange={(e: React.ChangeEvent<HTMLInputElement>) => {setCity(e.target.value)}} 
                     />,
-                    <Button
+                    <Button key={1}
                     type="button" 
                     text='Check' 
                     classStyle={styles.cityFindButton}

@@ -20,8 +20,8 @@ const CheckBox: FC<InputProps> =
 }) => {
     return(
     <div>
-        {options.map((a: objectProps) => (
-        <label>
+        {options.map((a: objectProps, id) => (
+        <label key={id}>
             <input 
             type="checkbox" 
             name="checkbox" 
